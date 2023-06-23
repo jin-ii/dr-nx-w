@@ -122,11 +122,23 @@ th,td{font-size:1.6rem;line-height:2.6rem;padding:1.5rem 1.2rem}
 }
 
 
+/* 게시판 */
+.table_board_type{
+    table{width:100%;text-align:center;margin:2rem 0;
+    th{border-top:.2rem solid #555;background-color:#fff;font-weight:500;border-bottom:.1rem solid #ddd}
+    td{color:#666;border-bottom:1px solid #ddd}    
+    th,td{font-size:1.6rem;line-height:2.6rem;padding:2rem 1.5rem}
+    td > a{color:#666}
+}
+}
+    
+
 
 
 /* pagination */
 .pagination{@include flex-center;
 li{
+&:hover{background:#f8f8f8}
 &.active > a{border:1px solid #666;background-color:#666;color:#fff;}
 &:first-child a{margin-left:0}
 a{display:block;padding:0rem 0.75rem;font-size:1.3rem;text-align:center;line-height:3.3rem;min-width:3.5rem;min-height:3.5rem;background-color:#fff;border:1px solid #dee2e6;color:#666;margin-left:-0.1rem;
@@ -162,8 +174,10 @@ a{display:block;padding:0rem 0.75rem;font-size:1.3rem;text-align:center;line-hei
 
 /* 검색 form */
 //input
-.board_top{width:100%;margin-top:4rem;display:flex;justify-content:space-between;}
-.board_search{margin-left: auto;display:flex;justify-content:flex-end;padding-bottom:2rem;
+.sub_top{width:100%;margin-top:4rem;display:flex;justify-content:space-between;
+    .sub_title{font-size:2.1rem;line-height:3.1rem;font-weight:700;display:flex;align-self:center;padding:0 0 0 2rem}
+}
+.board_search{margin-left: auto;display:flex;justify-content:flex-end;
     form{display:flex}
 }
 .input_box{position:relative;
