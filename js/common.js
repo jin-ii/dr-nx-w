@@ -1,12 +1,14 @@
 $(document).ready(function () {
 
-	// layout mobile menu
+	// layout mobile menu -- 추후 삭제
 	fetch('./mobile-menu.html')
 	.then(res => res.text())
 	.then(function(data) {
 		document.getElementById("mobile-menu").innerHTML = data;
 	})
 
+
+	
 	
 	var btnmenu = 0;
 	$(".btnmenu").click(function(e){
