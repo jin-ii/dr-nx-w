@@ -64,9 +64,10 @@ iframe, object, embed{max-width: 100%}
 /* #input
 ================================================== */
 input:checked[type="checkbox"] {background-color:#fff;-webkit-appearance:checkbox;} 
-input[type="text"], input[type="password"], input[type="email"], input[type="search"], input[type="image"],input[type="tel"], textarea {-webkit-appearance:none;border-radius:0;} 
+input[type="text"], input[type="password"], input[type="email"], input[type="search"], input[type="image"],input[type="tel"], textarea {-webkit-appearance:none;
+  border-radius:0;border:0} 
 input[type=submit], #submit, .button{padding:1rem 2rem;cursor: pointer;border:none;-webkit-appearance:none;border-radius:0}
-input[type=text]{border:1px solid #ddd;padding:0 1.2rem;line-height:4.5rem}
+input[type=text],input[type=password]{border:1px solid #ddd;padding:0 1.2rem;line-height:4.5rem}
 input::placeholder{color:#999 !important}
 select {-webkit-appearance:none;-moz-appearance:none;appearance:none;color:#a9aec0 !important;background:#fff url($imgurl  + "btn_arrow_bl.svg") no-repeat 98% center;background-size:2.7rem}
 select::-ms-expand{display:none}
