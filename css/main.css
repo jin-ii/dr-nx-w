@@ -724,7 +724,7 @@ button {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(38, 37, 43, 0.5);
+  background: rgba(38, 37, 43, 0.7);
   width: 100%;
   height: 15.2rem;
 }
@@ -1166,11 +1166,11 @@ button {
 #footer {
   width: 100%;
   background: #212428;
-  padding: 3rem 0 8rem 0;
+  padding: 3rem 8rem;
 }
 @media (min-width: 320px) and (max-width: 690px) {
   #footer {
-    padding: 3rem 0 7rem 3rem;
+    padding: 3rem 2rem;
   }
 }
 @media (min-width: 280px) and (max-width: 319px) {
@@ -2817,18 +2817,21 @@ button {
   background-color: #fff;
   font-weight: 500;
   border-bottom: 0.1rem solid #ddd;
+  padding: 1.6rem 1.5rem;
 }
 .table_board_type table td {
   color: #666;
   border-bottom: 1px solid #ddd;
+  padding: 2rem 1.5rem;
+  font-size: 0.1 0.8rem;
 }
 .table_board_type table th, .table_board_type table td {
   font-size: 1.6rem;
   line-height: 2.6rem;
-  padding: 2rem 1.5rem;
 }
 .table_board_type table td > a {
   color: #666;
+  font-size: 1.8rem;
 }
 .table_board_type table th {
   white-space: nowrap;
@@ -2935,7 +2938,7 @@ button {
 /* 검색 form */
 .sub_top {
   width: 100%;
-  margin-top: 4rem;
+  margin: 4rem 0 1rem 0;
   display: flex;
   justify-content: space-between;
 }
@@ -2950,8 +2953,8 @@ button {
   }
 }
 .sub_top .sub_title {
-  font-size: 2.1rem;
-  line-height: 3.1rem;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
   font-weight: 700;
   display: flex;
   align-self: center;
@@ -2991,9 +2994,6 @@ button {
     justify-content: center;
     align-items: center;
   }
-}
-.board_search input {
-  margin-bottom: 0.4rem;
 }
 @media (min-width: 320px) and (max-width: 690px) {
   .board_search input {
@@ -3088,14 +3088,14 @@ button {
 .login_btn {
   cursor: pointer;
   display: block;
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #fff;
-  background: #11b159;
+  background: #394c6b;
   text-align: center;
   border-radius: 9px;
   width: 100%;
   height: 60px;
-  box-shadow: 6px 2px 10px #b6ddc2;
+  box-shadow: 6px 2px 10px #8d929b;
 }
 
 /* sitemap */
@@ -3180,4 +3180,177 @@ button {
 .sitemap > ul > li ul > li .depths3 li a {
   line-height: 5rem;
   font-size: 1.6rem;
+}
+
+#board_view {
+  padding: 5rem 0 2rem 0;
+}
+#board_view .title_wrap {
+  width: 100%;
+  border-bottom: 0.1rem solid #ddd;
+  align-items: center;
+}
+#board_view .title_wrap h3 {
+  font-size: 3.4rem;
+  line-height: 4.4rem;
+  font-weight: 300;
+  letter-spacing: -0.2rem;
+  padding: 2rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  #board_view .title_wrap h3 {
+    white-space: wrap;
+    max-height: 10rem;
+    font-size: 2.6rem;
+    line-height: 3.6rem;
+  }
+}
+#board_view .title_wrap .info {
+  display: flex;
+  font-size: 1.6rem;
+  color: #999;
+  padding: 0 0 2rem 0;
+  justify-content: flex-end;
+}
+#board_view .title_wrap .info li {
+  padding: 0 1.8rem;
+  position: relative;
+}
+#board_view .title_wrap .info li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 100%;
+  width: 0.1rem;
+  height: 100%;
+  background: #ddd;
+}
+#board_view .title_wrap .info li:last-child::before {
+  background: none;
+}
+#board_view .title_wrap .info li span {
+  padding-right: 1.5rem;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  #board_view .title_wrap .info li span {
+    display: none;
+  }
+}
+#board_view .view_content_wrap {
+  min-height: 60rem;
+  padding: 3rem 2rem;
+  border-bottom: 0.1rem solid #ddd;
+}
+#board_view a.btn_list {
+  width: 20rem;
+  height: 5.5rem;
+  line-height: 5.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem auto;
+  background: #fff;
+  color: #222;
+  border: 1px solid #666;
+}
+#board_view a.btn_list:hover {
+  background: #222;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* 게시판 이전글 다음글 */
+.board_view_btnlist {
+  border-top: 0.1rem solid #ddd;
+}
+.board_view_btnlist dl {
+  display: flex;
+  padding: 2.8rem 2rem;
+  border-bottom: 0.1rem solid #ddd;
+}
+.board_view_btnlist dt {
+  position: relative;
+  width: 20rem;
+  min-width: 20rem;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  font-weight: 300;
+  color: #666;
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  .board_view_btnlist dt {
+    font-size: 1.6rem;
+    width: 8rem;
+    min-width: 8rem;
+  }
+}
+@media (min-width: 691px) and (max-width: 1399px) {
+  .board_view_btnlist dt {
+    width: 10rem;
+    min-width: 10rem;
+  }
+}
+.board_view_btnlist dt i {
+  color: #b3b3b3;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 4rem;
+  font-size: 1.5rem;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  .board_view_btnlist dt i {
+    display: none;
+  }
+}
+.board_view_btnlist dt span {
+  padding-left: 3rem;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  .board_view_btnlist dt span {
+    padding-left: 1.3rem;
+  }
+}
+.board_view_btnlist dt:before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 0.1rem;
+  height: 100%;
+  background: #ccc;
+}
+.board_view_btnlist dd {
+  width: 100%;
+  padding-left: 4rem;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  .board_view_btnlist dd {
+    padding-left: 1.5rem;
+  }
+}
+.board_view_btnlist dd a {
+  display: block;
+  color: #666;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 2.8rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: calc(100% - 8rem);
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  .board_view_btnlist dd a {
+    font-size: 1.6rem;
+  }
+}
+.board_view_btnlist dd a:hover {
+  color: #222;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */

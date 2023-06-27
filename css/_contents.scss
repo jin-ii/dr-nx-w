@@ -136,10 +136,10 @@ th,td{white-space:nowrap}
         @include mobile{
             .t_hit,.t_num{display:none}
         }
-    th{border-top:.2rem solid #555;background-color:#fff;font-weight:500;border-bottom:.1rem solid #ddd}
-    td{color:#666;border-bottom:1px solid #ddd}    
-    th,td{font-size:1.6rem;line-height:2.6rem;padding:2rem 1.5rem}
-    td > a{color:#666}
+    th{border-top:.2rem solid #555;background-color:#fff;font-weight:500;border-bottom:.1rem solid #ddd;padding:1.6rem 1.5rem}
+    td{color:#666;border-bottom:1px solid #ddd;padding:2rem 1.5rem;font-size:.1.8rem}    
+    th,td{font-size:1.6rem;line-height:2.6rem}
+    td > a{color:#666;font-size:1.8rem}
     th{white-space:nowrap}
     th,td{white-space:nowrap}
 }
@@ -187,10 +187,10 @@ a{display:block;padding:0rem 0.75rem;font-size:1.3rem;text-align:center;line-hei
 
 /* 검색 form */
 //input
-.sub_top{width:100%;margin-top:4rem;display:flex;justify-content:space-between;
+.sub_top{width:100%;margin:4rem 0 1rem 0;display:flex;justify-content:space-between;
     @include mobile{flex-wrap:wrap} 
     @include tablet{flex-wrap:wrap} 
-    .sub_title{font-size:2.1rem;line-height:3.1rem;font-weight:700;display:flex;align-self:center;padding:0 0 0 2rem;
+    .sub_title{font-size:2.4rem;line-height:3.4rem;font-weight:700;display:flex;align-self:center;padding:0 0 0 2rem;
      
     }
 }
@@ -201,7 +201,7 @@ a{display:block;padding:0rem 0.75rem;font-size:1.3rem;text-align:center;line-hei
     @include mobile{flex-wrap:wrap;@include flex-center}
     @include tablet{flex-wrap:wrap;@include flex-center}
     }
-    input{margin-bottom:.4rem;
+    input{
     @include mobile{max-width:15rem}
     }
 }
@@ -237,8 +237,8 @@ a{display:block;padding:0rem 0.75rem;font-size:1.3rem;text-align:center;line-hei
 .id_save .title{padding-left:8px}
 
 /* 로그인버튼 */
-.login_btn{cursor:pointer;display:block;font-size:16px;color:#fff;background:#11b159;text-align:center;border-radius:9px;width:100%;height:60px;
-    box-shadow:6px 2px 10px #b6ddc2}
+.login_btn{cursor:pointer;display:block;font-size:1.6rem;color:#fff;background:#394c6b;text-align:center;border-radius:9px;width:100%;height:60px;
+    box-shadow:6px 2px 10px #8d929b}
 
 
 
@@ -269,4 +269,47 @@ a{display:block;padding:0rem 0.75rem;font-size:1.3rem;text-align:center;line-hei
         }
     }
 }
+}
+
+#board_view{padding:5rem 0 2rem 0;
+    .title_wrap{width:100%;border-bottom:.1rem solid #ddd;align-items:center;
+        h3{font-size:3.4rem;line-height:4.4rem;font-weight:300;letter-spacing:-.2rem;padding:2rem;@include txtshort;
+            @include mobile{white-space:wrap;max-height:10rem;font-size:2.6rem;line-height:3.6rem}
+        }
+        .info{display:flex;font-size:1.6rem;color:#999;padding:0 0 2rem 0;justify-content:flex-end;
+            li{padding:0 1.8rem;position:relative;             
+                &::before{@include before;@include position($l:100%);width:.1rem;height:100%;background:#ddd}
+                &:last-child::before{background:none}
+                span{padding-right:1.5rem;
+                @include mobile{display:none}
+                }
+            }
+        }
+    }
+    .view_content_wrap{min-height:60rem;padding:3rem 2rem;border-bottom:.1rem solid #ddd}
+    a.btn_list{width:20rem;height:5.5rem;line-height:5.5rem;@include flex-center;margin:4rem auto;background:#fff;color:#222;border:1px solid #666;
+        &:hover{background:#222;color:#fff;text-decoration:none}
+    }
+}
+/* 게시판 이전글 다음글 */
+.board_view_btnlist{border-top:.1rem solid #ddd;
+    dl{display:flex;padding:2.8rem 2rem;border-bottom:.1rem solid #ddd;}
+    dt{position:relative;width:20rem;min-width:20rem;font-size:1.8rem;line-height:2.8rem;font-weight:300;color:#666;display:flex;align-items:center;
+        @include mobile{font-size:1.6rem;width:8rem;min-width:8rem}
+        @include tablet{width:10rem;min-width:10rem}
+        i{color:#b3b3b3;@include position($t:50%);transform:translateY(-50%);margin-right:4rem;font-size:1.5rem;  
+            @include mobile{display:none}        
+        }        
+        span{padding-left:3rem;
+            @include mobile{padding-left:1.3rem}
+        }
+        &:before{@include before;@include position($r:0);width:.1rem;height:100%;background:#ccc}
+    }
+    dd{width:100%;padding-left:4rem;
+        @include mobile{padding-left:1.5rem;}
+        a{display:block;color:#666;font-size:1.8rem;font-weight:300;line-height:2.8rem;@include txtshort;width:calc(100% - 8rem);
+            @include mobile{font-size:1.6rem;}
+            &:hover{color:#222;text-decoration:none}
+        }
+    }
 }
