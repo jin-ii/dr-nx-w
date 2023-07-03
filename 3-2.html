@@ -130,15 +130,310 @@
             //3차메뉴 -->
            <div class="contents">
            
-            <!-- 내용 -->
-            
+            <!-- 내용 -->            
+                <!-- 밭 -->
+                <div id="drought_plan">
+                    <!-- 1 -->
+                    <div class="plan_set1 plan_box_common"> 
+                        <!-- 대상지역현황 -->
+                        <div class="area_status">
+                            <h3 class="plan_tit">대상지역현황</h3>
+                            <div class="plan_tit_wrap">
+                                <h4>시설</h4>
+                                <form action="">
+                                    <select name="" id="" class="select_type1">
+                                        <option value="">상주</option>
+                                    </select>
+                                </form>
+                            </div>
+                            <!-- chart -->
+                            <div class="chart_area">
+                                <img src="/images/chart_sample1.png" alt="대상지역현황 차트샘플">
+                            </div>
+                            <!-- //chart -->
+                            <!-- table -->
+                                <div class="table_type_plan">
+                                    <table>
+                                        <tr>
+                                            <th>제원</th>
+                                            <th>항목</th>
+                                        </tr>
+                                        <tr>
+                                            <td>작물</td>
+                                            <td>콩</td>
+                                        </tr>
+                                        <tr>
+                                            <td>주소</td>
+                                            <td>상주시 상주읍</td>
+                                        </tr>
+                                        <tr>
+                                            <td>토양유효수분율</td>
+                                            <td>69.5%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>강수량</td>
+                                            <td>3.5mm</td>
+                                        </tr>
+                                        <tr>
+                                            <td>기준증발산량</td>
+                                            <td>6.2mm</td>
+                                        </tr>
+                                        <tr>
+                                            <td>유효수분량</td>
+                                            <td>171.4mm</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            <!-- //table -->
+                        </div>
+                         <!-- //대상지역현황 -->       
+                         <hr>
+                         <!-- 가뭄대책 기본설정 -->
+                         <div class="base_setting">
+                             <h3 class="plan_tit">가뭄대책 기본설정</h3>
+                             <form action="">
+                                <div class="sel_box">
+                                    <label for="">예측기간</label>
+                                    <select name="" id="" class="select_type1">
+                                        <option value="">1개월</option>
+                                        <option value="">2개월</option>
+                                        <option value="">3개월</option>
+                                    </select>
+                                </div>
+                                <div class="sel_box">
+                                    <label for="">기후변화시나리오</label>
+                                    <select name="" id="" class="select_type1">
+                                        <option value="">현재</option>
+                                    </select>
+                                </div>
+                                <div class="sel_box">
+                                    <label for="">가뭄기상시나리오</label>
+                                    <select name="" id="" class="select_type1">
+                                        <option value="">약한가뭄</option>
+                                    </select>
+                                </div>
+                                <div class="sel_box">
+                                    <label for="">토양통</label>
+                                    <select name="" id="" class="select_type1">
+                                        <option value="">광활통</option>
+                                    </select>
+                                </div>
+                             </form>
 
-                <!-- ready -->
-                <div class="page_ready">
-                    현재 페이지 준비중입니다.
-                
+                         </div>        
+                         <!-- //가뭄대책 기본설정 -->         
+                    </div>
+                    <!-- //1 -->
+                    <hr>
+
+                     <!-- 2 -->
+                     <div class="plan_set2 plan_box_common"> 
+                         <!-- 가뭄대책 상세설정 -->
+                        <div class="plan_detail_set">
+                            <h3 class="plan_tit">가뭄대책 상세설정</h3>
+                            
+                            <div class="category">농업인</div>
+                            <ul class="category_list">
+                                <li><a href="" class="list_depths1">A.관개 효율화 <i class="fa-solid fa-chevron-down"></i></a>
+                                    <ul>                                       
+                                        <li>
+                                           
+                                                <label class="check_label">
+                                                    <input type="checkbox" name="checkbox1">
+                                                    <span class="checkmark"></span>
+                                                    스프링클러 이용 관수
+                                                </label>
+                                         
+                                        </li>
+                                        <li>
+                                           
+                                            <label class="check_label">
+                                                <input type="checkbox" name="checkbox2" checked>
+                                                <span class="checkmark"></span>
+                                                관수 가능지역 관수 및 즉시 배수
+                                              </label>
+                                           
+                                        </li>
+                                        <li>
+                                          
+                                                <label class="check_label">
+                                                    <input type="checkbox" name="checkbox2" checked>
+                                                    <span class="checkmark"></span>
+                                                    수분 증발 억제
+                                                </label>
+                                            
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="" class="list_depths1">B. 영농 체계 개편<i class="fa-solid fa-chevron-down"></i></a>
+                                    <ul>                                       
+                                        <li>
+                                           
+                                                <label class="check_label">
+                                                    <input type="checkbox" name="checkbox1">
+                                                    <span class="checkmark"></span>
+                                                    대파 작물 재배
+                                                </label>
+                                          
+                                        </li>                                    
+                                    </ul>
+                                </li>                                
+                            </ul>
+                            <hr>
+                            <div class="category">지자체 정책결정자</div>
+                            <ul class="category_list">
+                                <li><a href="" class="list_depths1">A. 추가 용수원 확보<i class="fa-solid fa-chevron-down"></i></a>
+                                    <ul>                                       
+                                        <li>
+                                          
+                                                <label class="check_label">
+                                                <input type="checkbox" name="checkbox1" checked>
+                                                <span class="checkmark"></span>
+                                                송수호수, 스프링클러 지원
+                                                </label>
+
+                                                <div class="scrollbar_wrap">
+                                                <div class="scrollbar"><img src="images/scrollbar.png" alt=""></div>
+                                                <div class="check_yesno">
+                                                    <label class="check_label">
+                                                        <input type="checkbox" name="checkbox1" checked>
+                                                        <span class="checkmark"></span>
+                                                        yes
+                                                    </label>
+
+                                                    <label class="check_label">
+                                                        <input type="checkbox" name="checkbox1">
+                                                        <span class="checkmark"></span>
+                                                        no
+                                                    </label>
+                                                </div>
+                                                </div>
+
+                                        
+                                           
+                                        </li>    
+                                        <li>
+                                           
+                                                <label class="check_label">
+                                                    <input type="checkbox" name="checkbox1">
+                                                    <span class="checkmark"></span>
+                                                    양수 장비 동원 확대
+                                                </label>
+                                          
+                                        </li>    
+                                        <li>
+                                            
+                                                <label class="check_label">
+                                                    <input type="checkbox" name="checkbox1">
+                                                    <span class="checkmark"></span>
+                                                    소형관정 용수원 추가개발
+                                                </label>
+                                          
+                                          
+                                        </li>                                    
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <div class="plan_btn_wrap">
+                                <a href="" class="btn_search">조회</a>
+                                <a href="" class="btn_save">저장</a>
+                            </div>
+                        </div>
+                        <!-- //가뭄대책 상세설정 -->
+                     </div>
+                     <!-- //2 -->
+                     <hr>
+
+
+                    <!-- 3 -->
+                    <div class="plan_set3 plan_box_common"> 
+                        <h3 class="plan_tit">결과비교</h3>
+                         <!-- 결과비교 -->
+                        <div class="plan_result">                          
+                            <div class="result_select">
+                              <ul>
+                                <li>  
+                                    <label class="check_label">
+                                    <input type="checkbox" name="checkbox1">
+                                    <span class="checkmark"></span>
+                                    <div class="txt">이동 <span class="date"> 2023-02-03</span> <span class="cat">간단</span></div>
+                                    </label>
+                                </li>
+                                <li>  
+                                    <label class="check_label">
+                                    <input type="checkbox" name="checkbox1">
+                                    <span class="checkmark"></span>
+                                    <div class="txt">이동 <span class="date"> 2023-02-03</span> <span class="cat">간단</span></div>
+                                    </label>
+                                </li>
+                                <li>  
+                                    <label class="check_label">
+                                    <input type="checkbox" name="checkbox1" >
+                                    <span class="checkmark"></span>
+                                    <div class="txt">이동 <span class="date"> 2023-02-03</span> <span class="cat">간단</span></div>
+                                    </label>
+                                </li>
+                                <li>  
+                                    <label class="check_label">
+                                    <input type="checkbox" name="checkbox1" checked>
+                                    <span class="checkmark"></span>
+                                    <div class="txt">이동 <span class="date"> 2023-02-03</span> <span class="cat">간단</span></div>
+                                    </label>
+                                </li>
+                                <li>  
+                                    <label class="check_label">
+                                    <input type="checkbox" name="checkbox1">
+                                    <span class="checkmark"></span>
+                                    <div class="txt">이동 <span class="date"> 2023-02-03</span> <span class="cat">간단</span></div>
+                                    </label>
+                                </li>
+                                <li>  
+                                    <label class="check_label">
+                                    <input type="checkbox" name="checkbox1">
+                                    <span class="checkmark"></span>
+                                    <div class="txt">이동 <span class="date"> 2023-02-03</span> <span class="cat">간단</span></div>
+                                    </label>
+                                </li>
+                                <li>  
+                                    <label class="check_label">
+                                    <input type="checkbox" name="checkbox1">
+                                    <span class="checkmark"></span>
+                                    <div class="txt">이동 <span class="date"> 2023-02-03</span> <span class="cat">간단</span></div>
+                                    </label>
+                                </li>
+                              </ul>
+                            </div>
+                        </div>   
+                        <!-- //결과비교 -->
+                        <hr>
+                        <div id="rect_chart">
+                            <img src="images/chart_sample2.png" alt="">
+                        </div>
+                        <hr>
+
+                        <div id="radar_chart">
+                            <ul>
+                                <li><img src="images/chart_sample3.png" alt=""></li>
+                                <li><img src="images/chart_sample4.png" alt=""></li>
+                            </ul>
+                                  
+                        </div>
+                      
+                        <hr>
+
+                        <div class="plan_btn_wrap">
+                            <a href="" class="btn_search">조회</a>
+                            <a href="" class="btn_save">저장</a>
+                        </div>
+
+                    </div>
+                    <!-- //3 -->
+
+
                 </div>
-                <!-- //ready -->
+                <!-- //밭 -->
 
             <!-- //내용 -->
 
