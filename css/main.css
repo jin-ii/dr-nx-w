@@ -514,7 +514,7 @@ button {
     max-width: 100%;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .inner_sub {
     width: 100%;
     max-width: 100%;
@@ -538,13 +538,13 @@ button {
     padding: 0 2rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .visual_inner {
     max-width: 100%;
     padding: 0 3rem;
   }
 }
-@media (min-width: 1400px) and (max-width: 1700px) {
+@media (min-width: 1540px) and (max-width: 1700px) {
   .visual_inner {
     max-width: 100%;
     padding: 0 3rem 0 14rem;
@@ -697,7 +697,7 @@ button {
     left: 2rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   #header h1 {
     position: absolute;
     left: 2rem;
@@ -717,7 +717,7 @@ button {
     display: none;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   #header .pc_nav {
     display: none;
   }
@@ -810,7 +810,7 @@ button {
     right: 2rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   #header .top_set {
     position: absolute;
     right: 2rem;
@@ -1159,7 +1159,7 @@ button {
     padding: 3rem 0 8rem 0;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .contents_wrap {
     width: 100%;
   }
@@ -1181,7 +1181,7 @@ button {
     padding: 2rem 0 6rem 2rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   #footer {
     padding: 3rem 0 7rem 3rem;
   }
@@ -1338,7 +1338,7 @@ button {
     transform: translateY(-50%);
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .visualList .txtBox {
     font-size: 4.7rem;
     width: 88%;
@@ -1379,7 +1379,7 @@ button {
     line-height: 3.4rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .visualList .txtBox .txt2 {
     line-height: 5.7rem;
   }
@@ -1460,7 +1460,7 @@ button {
     bottom: 18vh;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .visual_button_wrap {
     bottom: 22vh;
   }
@@ -1551,7 +1551,7 @@ button {
     padding-bottom: 1rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   #sec_intro .intro_cont h3 {
     font-size: 4.7rem;
     width: 90%;
@@ -1620,7 +1620,7 @@ button {
     text-align: left;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   #sec_intro .title_text div {
     font-size: 7rem;
     line-height: 7.5rem;
@@ -1677,7 +1677,7 @@ button {
     transform: translateY(-50%);
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   #sec_business .visual_inner {
     position: relative;
     top: 50%;
@@ -1715,7 +1715,7 @@ button {
     padding-top: 0;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   #sec_business .business_cont {
     padding-top: 0;
   }
@@ -1741,7 +1741,7 @@ button {
     line-height: 3.6rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   #sec_business .business_cont h3 {
     font-size: 3.7rem;
     width: 90%;
@@ -1766,7 +1766,7 @@ button {
     display: none;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   #sec_business .business_cont p.text_type {
     font-size: 1.6rem;
     width: 90%;
@@ -1796,7 +1796,7 @@ button {
     margin-top: 3rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   #sec_business .banner_box {
     transform: none;
     top: auto;
@@ -1835,7 +1835,7 @@ button {
     font-size: 2rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   #sec_business .banner_box .title h4 {
     font-size: 2.5rem;
   }
@@ -1858,7 +1858,7 @@ button {
     line-height: 2.4rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   #sec_business .banner_box .title p {
     width: 80%;
     line-height: 2.6rem;
@@ -1927,7 +1927,7 @@ button {
   width: 50%;
   max-width: 1000px;
 }
-@media (min-width: 1400px) and (max-width: 1700px) {
+@media (min-width: 1540px) and (max-width: 1700px) {
   #sec_adan .image_box {
     width: 46%;
   }
@@ -1948,7 +1948,7 @@ button {
     width: 100%;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   #sec_adan .image_box {
     height: 50vh;
     bottom: 0;
@@ -1971,7 +1971,7 @@ button {
     height: auto;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   #sec_adan .image_box img {
     height: auto;
     min-width: 100%;
@@ -1984,7 +1984,7 @@ button {
   display: block;
   width: 70rem;
 }
-@media (min-width: 1400px) and (max-width: 1700px) {
+@media (min-width: 1540px) and (max-width: 1700px) {
   #sec_adan .adan_cont {
     right: 0;
   }
@@ -2003,7 +2003,7 @@ button {
     padding-top: 10rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   #sec_adan .adan_cont {
     width: 100%;
     position: static;
@@ -2029,7 +2029,7 @@ button {
     line-height: 3.6rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   #sec_adan .adan_cont h3 {
     font-size: 3.7rem;
     line-height: 4.7rem;
@@ -2072,7 +2072,7 @@ button {
     width: 100%;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   #sec_news .news_cont h3 {
     font-size: 3.7rem;
     line-height: 4.7rem;
@@ -2112,7 +2112,7 @@ button {
     top: 3rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   #sec_news .news_wrap .btn_more {
     left: 0;
   }
@@ -2271,7 +2271,7 @@ button {
     top: 0;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .news_tab {
     position: static;
     left: 0;
@@ -2341,7 +2341,7 @@ button {
     padding: 8rem 2rem 0 2rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .title_type1 {
     padding: 8rem 2rem 0 2rem;
   }
@@ -2368,7 +2368,7 @@ button {
     line-height: 2.8rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .title_type1 p.cont {
     font-size: 1.8rem;
     line-height: 2.8rem;
@@ -2439,7 +2439,7 @@ button {
     line-height: 3.8rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .h3_type1 {
     font-size: 2.8rem;
     line-height: 3.8rem;
@@ -2473,7 +2473,7 @@ button {
     text-align: center;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .img_type {
     padding: 6rem 0 6rem 0;
     text-align: center;
@@ -2496,7 +2496,7 @@ button {
     flex-direction: column;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .img_type_r {
     flex-direction: column;
   }
@@ -2509,7 +2509,7 @@ button {
     padding: 0 3rem 5rem 3rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .img_type_r .txt {
     padding: 0 3rem 5rem 3rem;
   }
@@ -2522,7 +2522,7 @@ button {
     width: 100%;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .img_type_r .txt .cont_type1 {
     width: 100%;
   }
@@ -2550,7 +2550,7 @@ button {
     padding: 0 3rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .text_type1 {
     padding: 0 3rem;
   }
@@ -2564,7 +2564,7 @@ button {
     flex-direction: column;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .img_type_l {
     flex-direction: column;
   }
@@ -2577,7 +2577,7 @@ button {
     padding: 5rem 3rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .img_type_l .txt {
     padding: 5rem 3rem;
   }
@@ -2590,7 +2590,7 @@ button {
     width: 100%;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .img_type_l .txt .cont_type1 {
     width: 100%;
   }
@@ -2718,7 +2718,7 @@ button {
     padding: 1rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .tab_type1 {
     flex-wrap: wrap;
   }
@@ -2743,7 +2743,7 @@ button {
     font-size: 1.5rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .tab_type1 li a {
     display: inline-block;
     line-height: 5rem;
@@ -2950,7 +2950,7 @@ button {
     flex-wrap: wrap;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .sub_top {
     flex-wrap: wrap;
   }
@@ -2974,7 +2974,7 @@ button {
     padding: 1rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .board_search {
     padding: 1rem 2rem;
   }
@@ -2990,7 +2990,7 @@ button {
     align-items: center;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .board_search form {
     flex-wrap: wrap;
     display: flex;
@@ -3119,7 +3119,7 @@ button {
     flex-wrap: wrap;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .sitemap > ul {
     flex-wrap: wrap;
   }
@@ -3134,7 +3134,7 @@ button {
     margin-bottom: 4rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .sitemap > ul > li {
     flex: auto;
     width: 50%;
@@ -3292,7 +3292,7 @@ button {
     min-width: 8rem;
   }
 }
-@media (min-width: 691px) and (max-width: 1399px) {
+@media (min-width: 691px) and (max-width: 1539px) {
   .board_view_btnlist dt {
     width: 10rem;
     min-width: 10rem;
@@ -3363,6 +3363,16 @@ button {
   display: flex;
   padding: 4rem 0 0 0;
 }
+@media (min-width: 320px) and (max-width: 690px) {
+  #drought_plan {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 691px) and (max-width: 1539px) {
+  #drought_plan {
+    flex-wrap: wrap;
+  }
+}
 #drought_plan .plan_box_common {
   height: 100%;
   min-height: 108rem;
@@ -3371,8 +3381,42 @@ button {
   padding: 4.4rem 3.4rem;
   position: relative;
 }
+@media (min-width: 320px) and (max-width: 690px) {
+  #drought_plan .plan_box_common {
+    min-height: 100%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+}
+@media (min-width: 691px) and (max-width: 1539px) {
+  #drought_plan .plan_box_common {
+    min-height: 100%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+}
 #drought_plan .plan_set1 {
   width: 47rem;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  #drought_plan .plan_set1 {
+    width: 100%;
+  }
+}
+@media (min-width: 691px) and (max-width: 1539px) {
+  #drought_plan .plan_set1 {
+    width: 100%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1539px) {
+  #drought_plan .plan_set1 {
+    width: 50%;
+  }
+}
+@media (min-width: 1540px) and (max-width: 1700px) {
+  #drought_plan .plan_set1 {
+    width: 25%;
+  }
 }
 #drought_plan .area_status {
   padding-bottom: 4rem;
@@ -3432,9 +3476,44 @@ button {
 #drought_plan .sel_box select {
   width: 20rem;
 }
+@media (min-width: 320px) and (max-width: 690px) {
+  #drought_plan .sel_box select {
+    width: 50%;
+  }
+}
+@media (min-width: 691px) and (max-width: 1539px) {
+  #drought_plan .sel_box select {
+    width: 50%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1539px) {
+  #drought_plan .sel_box select {
+    width: 50%;
+  }
+}
 #drought_plan .plan_set2 {
   width: 47rem;
   margin-left: -0.1rem;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  #drought_plan .plan_set2 {
+    width: 100%;
+  }
+}
+@media (min-width: 691px) and (max-width: 1539px) {
+  #drought_plan .plan_set2 {
+    width: 100%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1539px) {
+  #drought_plan .plan_set2 {
+    width: 50%;
+  }
+}
+@media (min-width: 1540px) and (max-width: 1700px) {
+  #drought_plan .plan_set2 {
+    width: 25%;
+  }
 }
 #drought_plan .plan_detail_set .category {
   width: 100%;
@@ -3484,6 +3563,7 @@ button {
 #drought_plan .plan_detail_set .category_list li ul li .scrollbar_wrap {
   background: #fff;
   padding: 2rem 3rem;
+  text-align: center;
 }
 #drought_plan .plan_detail_set .category_list li ul li .check_yesno {
   display: flex;
@@ -3496,6 +3576,26 @@ button {
 #drought_plan .plan_set3 {
   width: 76rem;
   margin-left: -0.1rem;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  #drought_plan .plan_set3 {
+    width: 100%;
+  }
+}
+@media (min-width: 691px) and (max-width: 1539px) {
+  #drought_plan .plan_set3 {
+    width: 100%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1539px) {
+  #drought_plan .plan_set3 {
+    width: 100%;
+  }
+}
+@media (min-width: 1540px) and (max-width: 1700px) {
+  #drought_plan .plan_set3 {
+    width: 50%;
+  }
 }
 #drought_plan .plan_result {
   width: 100%;
@@ -3536,6 +3636,27 @@ button {
   right: 3rem;
   margin-top: 2rem;
 }
+@media (min-width: 320px) and (max-width: 690px) {
+  #drought_plan .plan_btn_wrap {
+    position: static;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 691px) and (max-width: 1539px) {
+  #drought_plan .plan_btn_wrap {
+    position: static;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 900px) and (max-width: 1539px) {
+  #drought_plan .plan_btn_wrap {
+    position: static;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
 #drought_plan .plan_btn_wrap a {
   display: inline-block;
   width: 12rem;
@@ -3557,6 +3678,7 @@ button {
   border: 1px solid #ddd;
   width: 100%;
   margin: 2rem 0 1rem 0;
+  text-align: center;
 }
 
 #radar_chart {
