@@ -207,6 +207,8 @@
 .contents_wrap{width:160rem;margin:0 auto;padding:0 0 15rem 0;
   @include mobile{width:100%;padding:3rem 0 8rem 0}
   @include tablet{width:100%}
+  @include tablet2{width:100%}
+  @include desktop{width:100%}
 }
 
 /* footer */

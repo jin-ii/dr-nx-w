@@ -1164,6 +1164,16 @@ button {
     width: 100%;
   }
 }
+@media (min-width: 900px) and (max-width: 1539px) {
+  .contents_wrap {
+    width: 100%;
+  }
+}
+@media (min-width: 1540px) and (max-width: 1700px) {
+  .contents_wrap {
+    width: 100%;
+  }
+}
 
 /* footer */
 #footer {
@@ -3492,7 +3502,7 @@ button {
   }
 }
 #drought_plan .plan_set2 {
-  width: 47rem;
+  width: 40rem;
   margin-left: -0.1rem;
 }
 @media (min-width: 320px) and (max-width: 690px) {
@@ -3698,4 +3708,543 @@ button {
 }
 #radar_chart ul li:first-child {
   margin-right: 1rem;
+}
+
+/******* 가뭄대책 리뉴얼 *******/
+#drought_plan2 {
+  display: flex;
+  padding: 4rem 0 0 0;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  #drought_plan2 {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 691px) and (max-width: 1539px) {
+  #drought_plan2 {
+    flex-wrap: wrap;
+  }
+}
+#drought_plan2 .plan_box_common {
+  height: 95rem;
+  min-height: 95rem;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 0 0 3rem 0;
+  position: relative;
+  margin-right: 1rem;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  #drought_plan2 .plan_box_common {
+    height: 100%;
+    min-height: 100%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin: 0 0 3rem 0;
+  }
+}
+@media (min-width: 691px) and (max-width: 1539px) {
+  #drought_plan2 .plan_box_common {
+    height: 100%;
+    min-height: 100%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin: 0 0 3rem 0;
+  }
+}
+@media (min-width: 900px) and (max-width: 1539px) {
+  #drought_plan2 .plan_box_common {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin: 0 0 3rem 0;
+  }
+}
+@media (min-width: 1540px) and (max-width: 1700px) {
+  #drought_plan2 .plan_box_common {
+    margin: 0 0 3rem 0;
+  }
+}
+#drought_plan2 .plan_set1 {
+  width: 40rem;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  #drought_plan2 .plan_set1 {
+    width: 100%;
+  }
+}
+@media (min-width: 691px) and (max-width: 1539px) {
+  #drought_plan2 .plan_set1 {
+    width: 100%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1539px) {
+  #drought_plan2 .plan_set1 {
+    width: 100%;
+  }
+}
+@media (min-width: 1540px) and (max-width: 1700px) {
+  #drought_plan2 .plan_set1 {
+    width: 25%;
+  }
+}
+#drought_plan2 .plan_inner {
+  padding: 0 3rem;
+}
+#drought_plan2 .plan_tit {
+  font-size: 1.6rem;
+  color: #555555;
+  line-height: 2.8rem;
+  padding-bottom: 2rem;
+  border-bottom: 0.1rem solid #ddd;
+  padding: 1rem 3rem;
+  background: #f8f8f8;
+}
+#drought_plan2 .plan_h4 {
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+  color: #666;
+  font-weight: 500;
+}
+#drought_plan2 .plan_tit_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 0;
+  align-items: center;
+}
+#drought_plan2 .plan_tit_wrap h4 {
+  font-size: 1.7rem;
+  color: #666;
+  font-weight: 500;
+}
+#drought_plan2 .chart_area {
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#drought_plan2 .sel_growwrap {
+  display: flex;
+  padding: 1rem 0 2rem 0;
+}
+#drought_plan2 .sel_growwrap li {
+  flex: 1;
+  border: 0.1rem solid #ddd;
+  height: 6rem;
+  margin-right: 0.4rem;
+}
+#drought_plan2 .sel_growwrap li label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 6rem;
+  padding: 0 0 0 4rem;
+  filter: grayscale(100%);
+}
+#drought_plan2 .sel_growwrap li label.on, #drought_plan2 .sel_growwrap li label:hover {
+  filter: grayscale(0%);
+}
+#drought_plan2 .sel_growwrap li label.sel_grow1 {
+  background: url("../images/sub/icon_grow1.png") 96% center no-repeat;
+}
+#drought_plan2 .sel_growwrap li label.sel_grow2 {
+  background: url("../images/sub/icon_grow2.png") 96% center no-repeat;
+}
+#drought_plan2 .sel_growwrap li .checkmark {
+  left: 1.4rem;
+  transform: translate(0, -50%);
+  top: 50%;
+}
+#drought_plan2 .sel_growwrap li label:hover, #drought_plan2 .sel_growwrap li label.on {
+  border: 0.1rem solid #666;
+  text-decoration: none;
+  color: #222;
+}
+#drought_plan2 .sel_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.7rem;
+}
+#drought_plan2 .sel_box label {
+  color: #666;
+  font-size: 1.6rem;
+}
+#drought_plan2 .sel_box select {
+  width: 20rem;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  #drought_plan2 .sel_box select {
+    width: 50%;
+  }
+}
+@media (min-width: 691px) and (max-width: 1539px) {
+  #drought_plan2 .sel_box select {
+    width: 50%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1539px) {
+  #drought_plan2 .sel_box select {
+    width: 50%;
+  }
+}
+#drought_plan2 .plan_set2 {
+  width: 88rem;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  #drought_plan2 .plan_set2 {
+    width: 100%;
+  }
+}
+@media (min-width: 691px) and (max-width: 1539px) {
+  #drought_plan2 .plan_set2 {
+    width: 100%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1539px) {
+  #drought_plan2 .plan_set2 {
+    width: 100%;
+  }
+}
+@media (min-width: 1540px) and (max-width: 1700px) {
+  #drought_plan2 .plan_set2 {
+    width: 50%;
+  }
+}
+#drought_plan2 .plan_set2 .drought_wrap .result_info {
+  height: 5rem;
+  font-size: 1.6rem;
+  line-height: 5rem;
+  background: #466196;
+  color: #fff;
+  padding: 0 2rem;
+  font-weight: 500;
+  margin: 1.4rem 0;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  #drought_plan2 .plan_set2 .drought_wrap .result_info {
+    line-height: 2.6rem;
+    height: auto;
+    padding: 2rem;
+    width: 100%;
+  }
+}
+@media (min-width: 691px) and (max-width: 1539px) {
+  #drought_plan2 .plan_set2 .drought_wrap .result_info {
+    line-height: 2.6rem;
+    height: auto;
+    padding: 2rem;
+    width: 100%;
+  }
+}
+#drought_plan2 .plan_set2 .drought_wrap .result_info span {
+  padding-left: 2rem;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  #drought_plan2 .plan_set2 .table_type_result {
+    overflow: hidden;
+    overflow-x: scroll;
+    width: 100%;
+  }
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  #drought_plan2 .plan_set2 .table_type_result:before {
+    display: block;
+    margin-bottom: 10px;
+    content: "모바일 환경에서는 좌우로 스크롤하여 보실 수 있습니다.";
+    font-weight: 500;
+    color: #d80b8c;
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 691px) and (max-width: 1539px) {
+  #drought_plan2 .plan_set2 .table_type_result:before {
+    display: block;
+    margin-bottom: 10px;
+    content: "테블릿 환경에서는 좌우로 스크롤하여 보실 수 있습니다.";
+    font-weight: 500;
+    color: #d80b8c;
+    font-size: 1.3rem;
+  }
+}
+#drought_plan2 .plan_set2 .table_type_result table {
+  width: 100%;
+  border-bottom: 0.1rem solid #ddd;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  #drought_plan2 .plan_set2 .table_type_result table {
+    min-width: 65rem;
+  }
+}
+@media (min-width: 691px) and (max-width: 1539px) {
+  #drought_plan2 .plan_set2 .table_type_result table {
+    min-width: 65rem;
+  }
+}
+#drought_plan2 .plan_set2 .table_type_result tr:nth-child(2n) {
+  background: #f8f8f8;
+}
+#drought_plan2 .plan_set2 .table_type_result th, #drought_plan2 .plan_set2 .table_type_result td {
+  text-align: center;
+}
+#drought_plan2 .plan_set2 .table_type_result th {
+  font-weight: 500;
+  color: #000;
+  padding: 2.2rem 1.4rem;
+  background: #DFEBF5;
+  border-top: 0.2rem solid #222;
+}
+#drought_plan2 .plan_set2 .table_type_result td {
+  height: 8rem;
+  padding: 0 1.2rem;
+  vertical-align: middle;
+  color: #666;
+  font-size: 1.5rem;
+  border-top: 0.1rem solid #ddd;
+}
+#drought_plan2 .plan_set2 .table_type_result h5.tit {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+#drought_plan2 .btn_confirm {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  height: 6rem;
+  line-height: 6rem;
+  background: #5B85D8;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 4rem;
+}
+#drought_plan2 .btn_confirm:hover {
+  background: #5379c4;
+  text-decoration: none;
+}
+#drought_plan2 .weather_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#drought_plan2 .weather_wrap .sun {
+  background: url("../images/sub/weather_icon_sun.png") no-repeat;
+}
+#drought_plan2 .weather_wrap .rain {
+  background: url("../images/sub/weather_icon_rain.png") no-repeat;
+}
+#drought_plan2 .weather_wrap .snow {
+  background: url("../images/sub/weather_icon_snow.png") no-repeat;
+}
+#drought_plan2 .weather_wrap .cloud {
+  background: url("../images/sub/weather_icon_cloud.png") no-repeat;
+}
+#drought_plan2 .weather_wrap .cloud2 {
+  background: url("../images/sub/weather_icon_cloud2.png") no-repeat;
+}
+#drought_plan2 .weather_wrap .weather_icons {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  background-size: 4rem;
+}
+#drought_plan2 .water_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#drought_plan2 .water_wrap .water_icons {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  background-size: 4rem;
+}
+#drought_plan2 .water_wrap .water_icons.off {
+  background: url("../images/sub/icon_water_off.png") no-repeat;
+}
+#drought_plan2 .water_wrap .water_icons.on {
+  background: url("../images/sub/icon_water_on.png") no-repeat;
+}
+#drought_plan2 .grow_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#drought_plan2 .grow_wrap .grow_icons {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  background-size: 4rem;
+}
+#drought_plan2 .grow_wrap .grow_icons.off {
+  background: url("../images/sub/icon_grow_off.png") no-repeat;
+}
+#drought_plan2 .grow_wrap .grow_icons.on {
+  background: url("../images/sub/icon_grow_on.png") no-repeat;
+}
+#drought_plan2 .energy_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#drought_plan2 .energy_wrap .energy_icons {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  background-size: 4rem;
+}
+#drought_plan2 .energy_wrap .energy_icons.off {
+  background: url("../images/sub/icon_energy_off.png") no-repeat;
+}
+#drought_plan2 .energy_wrap .energy_icons.on {
+  background: url("../images/sub/icon_energy_on.png") no-repeat;
+}
+#drought_plan2 .gas_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#drought_plan2 .gas_wrap .gas_icons {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  background-size: 4rem;
+}
+#drought_plan2 .gas_wrap .gas_icons.off {
+  background: url("../images/sub/icon_gas_off.png") no-repeat;
+}
+#drought_plan2 .gas_wrap .gas_icons.on {
+  background: url("../images/sub/icon_gas_on.png") no-repeat;
+}
+#drought_plan2 .cost_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#drought_plan2 .cost_wrap .cost_icons {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  background-size: 4rem;
+}
+#drought_plan2 .cost_wrap .cost_icons.off {
+  background: url("../images/sub/icon_cost_off.png") no-repeat;
+}
+#drought_plan2 .cost_wrap .cost_icons.on {
+  background: url("../images/sub/icon_cost_on.png") no-repeat;
+}
+#drought_plan2 .plan_set3 {
+  width: calc(100% - 88rem - 40rem);
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  #drought_plan2 .plan_set3 {
+    width: 100%;
+  }
+}
+@media (min-width: 691px) and (max-width: 1539px) {
+  #drought_plan2 .plan_set3 {
+    width: 100%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1539px) {
+  #drought_plan2 .plan_set3 {
+    width: 100%;
+  }
+}
+@media (min-width: 1540px) and (max-width: 1700px) {
+  #drought_plan2 .plan_set3 {
+    width: 25%;
+  }
+}
+#drought_plan2 .plan_set3 .select_activity .info_tit {
+  height: 5rem;
+  font-size: 1.6rem;
+  line-height: 5rem;
+  font-weight: 400;
+  margin: 1.4rem 0;
+  color: #999;
+  letter-spacing: 0;
+}
+#drought_plan2 .plan_set3 .select_activity ul.activity_list {
+  display: flex;
+  flex-direction: column;
+}
+#drought_plan2 .plan_set3 .select_activity ul.activity_list li {
+  background: #f8f8f8;
+}
+#drought_plan2 .plan_set3 .select_activity ul.activity_list li label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 6rem;
+  padding: 0 0 0 4rem;
+  filter: grayscale(100%);
+}
+#drought_plan2 .plan_set3 .select_activity ul.activity_list li label.on, #drought_plan2 .plan_set3 .select_activity ul.activity_list li label:hover {
+  filter: grayscale(0%);
+}
+#drought_plan2 .plan_set3 .select_activity ul.activity_list li label.select_water {
+  background: url("../images/sub/icon_water_on.png") 96% center no-repeat;
+}
+#drought_plan2 .plan_set3 .select_activity ul.activity_list li label.select_grow {
+  background: url("../images/sub/icon_grow_on.png") 96% center no-repeat;
+}
+#drought_plan2 .plan_set3 .select_activity ul.activity_list li label.select_energy {
+  background: url("../images/sub/icon_energy_on.png") 96% center no-repeat;
+}
+#drought_plan2 .plan_set3 .select_activity ul.activity_list li label.select_gas {
+  background: url("../images/sub/icon_gas_on.png") 96% center no-repeat;
+}
+#drought_plan2 .plan_set3 .select_activity ul.activity_list li label.select_cost {
+  background: url("../images/sub/icon_cost_on.png") 96% center no-repeat;
+}
+#drought_plan2 .plan_set3 .select_activity ul.activity_list li .checkmark {
+  left: 1.4rem;
+  transform: translate(0, -50%);
+  top: 50%;
+}
+#drought_plan2 .plan_set3 .select_activity ul.activity_list li label:hover, #drought_plan2 .plan_set3 .select_activity ul.activity_list li label.on {
+  border: 0.1rem solid #666;
+  text-decoration: none;
+  color: #222;
+  background-color: #fff;
+}
+#drought_plan2 .plan_set3 .plan_result_text {
+  position: absolute;
+  bottom: 6rem;
+  padding-right: 3rem;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  #drought_plan2 .plan_set3 .plan_result_text {
+    position: static;
+    padding-right: 0;
+  }
+}
+@media (min-width: 691px) and (max-width: 1539px) {
+  #drought_plan2 .plan_set3 .plan_result_text {
+    position: static;
+    padding-right: 0;
+  }
+}
+@media (min-width: 900px) and (max-width: 1539px) {
+  #drought_plan2 .plan_set3 .plan_result_text {
+    position: static;
+    padding-right: 0;
+  }
+}
+#drought_plan2 .plan_set3 .plan_result_text ul {
+  margin-top: 4rem;
+}
+#drought_plan2 .plan_set3 .plan_result_text ul li {
+  border-bottom: 0.1rem solid #ddd;
+  padding: 2rem 0;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #666;
+}
+#drought_plan2 .plan_set3 .plan_result_text ul li strong {
+  color: #222;
+  font-weight: 700;
 }/*# sourceMappingURL=main.css.map */
