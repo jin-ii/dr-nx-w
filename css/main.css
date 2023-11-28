@@ -3911,6 +3911,9 @@ button {
     width: 50%;
   }
 }
+#drought_plan2 .plan_set2 .drought_wrap {
+  position: relative;
+}
 #drought_plan2 .plan_set2 .drought_wrap .result_info {
   height: 5rem;
   font-size: 1.6rem;
@@ -4247,4 +4250,51 @@ button {
 #drought_plan2 .plan_set3 .plan_result_text ul li strong {
   color: #222;
   font-weight: 700;
+}
+
+.tab_btn_wrap {
+  position: absolute;
+  top: 0.6rem;
+  right: 3.5rem;
+  z-index: 99;
+  display: flex;
+}
+.tab_btn_wrap a {
+  display: block;
+  width: 4rem;
+  height: 3.8rem;
+  background-color: #5f7aaf !important;
+  border-radius: 0.3rem;
+  margin-right: 0.2rem;
+}
+.tab_btn_wrap a:hover, .tab_btn_wrap a.on {
+  background-color: #2F497A !important;
+}
+.tab_btn_wrap .btn_graphic {
+  background: url("../images/sub/icon_btn_graphic.png") center center no-repeat;
+}
+.tab_btn_wrap .btn_table {
+  background: url("../images/sub/icon_btn_table.png") center center no-repeat;
+}
+
+.plan_title_wrap {
+  position: relative;
+}
+
+.apex_download {
+  border: 0.1rem solid #ddd;
+  padding: 0 2rem 0 4.2rem;
+  height: 4rem;
+  line-height: 3.8rem;
+  color: #666;
+  font-weight: 500;
+  position: absolute;
+  top: 0.4rem;
+  right: 3.5rem;
+  background: #fff url("../images/sub/icon_btn_download.png") 2rem 60% no-repeat;
+}
+.apex_download:hover {
+  border: 1px solid #666;
+  color: #222;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */

@@ -460,6 +460,7 @@ a{display:block;padding:0rem 0.75rem;font-size:1.3rem;text-align:center;line-hei
     
    //box
    .plan_inner{padding:0 3rem}
+
    .plan_tit{font-size:1.6rem;color:#555555;line-height:2.8rem;padding-bottom:2rem;border-bottom:.1rem solid #ddd;padding:1rem 3rem;background:#f8f8f8}
    .plan_h4{font-size:1.7rem;line-height:2.7rem;color:#666;font-weight:500}
    .plan_tit_wrap{display:flex;justify-content:space-between;align-items:center;padding:1.4rem 0;align-items:center;
@@ -496,7 +497,7 @@ a{display:block;padding:0rem 0.75rem;font-size:1.3rem;text-align:center;line-hei
     @include tablet2{width:100%}
     @include desktop{width:50%}
     
-    .drought_wrap{
+    .drought_wrap{position:relative;
         .result_info{height:5rem;font-size:1.6rem;line-height:5rem;background:#466196;color:#fff;padding:0 2rem;font-weight:500;margin:1.4rem 0;
             @include mobile{line-height:2.6rem;height:auto;padding:2rem;width:100%}
             @include tablet{line-height:2.6rem;height:auto;padding:2rem;width:100%}
@@ -622,3 +623,17 @@ a{display:block;padding:0rem 0.75rem;font-size:1.3rem;text-align:center;line-hei
 
 }
 
+//버튼 아이콘 추가
+.tab_btn_wrap{@include position($t:.6rem,$r:3.5rem);z-index:99;display:flex;
+    a{display:block;width:4rem;height:3.8rem;background-color:#5f7aaf !important;border-radius:.3rem;margin-right:.2rem;
+        &:hover,&.on{background-color:#2F497A !Important}
+    }
+    .btn_graphic{background:url($imgurl3 + "icon_btn_graphic.png") center center no-repeat;}
+    .btn_table{background:url($imgurl3 + "icon_btn_table.png") center center no-repeat;}
+}
+
+.plan_title_wrap{position:relative;}
+.apex_download{border:.1rem solid #ddd;padding:0 2rem 0 4.2rem;height:4rem;line-height:3.8rem;color:#666;font-weight:500;@include position($t:.4rem,$r:3.5rem);
+    background:#fff url($imgurl3 + "icon_btn_download.png") 2rem 60% no-repeat;
+    &:hover{border:1px solid #666;color:#222;text-decoration:none}
+}
