@@ -637,3 +637,36 @@ a{display:block;padding:0rem 0.75rem;font-size:1.3rem;text-align:center;line-hei
     background:#fff url($imgurl3 + "icon_btn_download.png") 2rem 60% no-repeat;
     &:hover{border:1px solid #666;color:#222;text-decoration:none}
 }
+
+//popup
+.drought_popup{width:80rem;max-width:100rem;min-height:60rem;border:1px solid #ddd;padding:5rem 3rem;box-shadow:1rem 0rem 2rem #777777;
+    background:#fff;@include position($t:50%,$l:50%);transform: translate(-50%, -50%);z-index:99;
+    .title{height:4.5rem}
+    .title h2{font-size:2rem;color:#555}
+    .btn_view{
+        display:inline-block;border:.1rem solid #ddd;padding:0 2.5rem;height:4.5rem;line-height:4.3rem;color:#666;font-weight:500;
+    &:hover{border:1px solid #666;color:#222;text-decoration:none}
+    
+    }
+    .btn_view2{
+        display:inline-block;background:#394c6b;color:#fff;padding:0 2.5rem;height:4.5rem;line-height:4.3rem;font-weight:500;
+    &:hover{background:#29374e;text-decoration:none}
+    
+    }
+}
+
+.popup_btn_wrap{@include position($t:3.5rem,$r:2rem);display:flex;
+    a{display:inline-block;margin-right:.5rem}
+}
+
+.table_type1{
+    table{border-top:.2rem solid #222;width:100%;text-align:left;        
+        th{background:#f8f8f8;padding:1.2rem 4rem}
+        td{border-bottom:.1rem solid #ddd;padding:1.2rem 4rem;color:#666}
+    }
+}
+
+.btn_close{display:inline-block;background:url($imgurl2 + "icon_btn_close.svg") no-repeat;width:1.8rem;height:1.8rem;background-size:1.8rem;opacity:0.7;
+    @include position($r:1rem,$t:1.5rem);
+    &:hover{opacity:1}
+}

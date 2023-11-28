@@ -4297,4 +4297,94 @@ button {
   border: 1px solid #666;
   color: #222;
   text-decoration: none;
+}
+
+.drought_popup {
+  width: 80rem;
+  max-width: 100rem;
+  min-height: 60rem;
+  border: 1px solid #ddd;
+  padding: 5rem 3rem;
+  box-shadow: 1rem 0rem 2rem #777777;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+.drought_popup .title {
+  height: 4.5rem;
+}
+.drought_popup .title h2 {
+  font-size: 2rem;
+  color: #555;
+}
+.drought_popup .btn_view {
+  display: inline-block;
+  border: 0.1rem solid #ddd;
+  padding: 0 2.5rem;
+  height: 4.5rem;
+  line-height: 4.3rem;
+  color: #666;
+  font-weight: 500;
+}
+.drought_popup .btn_view:hover {
+  border: 1px solid #666;
+  color: #222;
+  text-decoration: none;
+}
+.drought_popup .btn_view2 {
+  display: inline-block;
+  background: #394c6b;
+  color: #fff;
+  padding: 0 2.5rem;
+  height: 4.5rem;
+  line-height: 4.3rem;
+  font-weight: 500;
+}
+.drought_popup .btn_view2:hover {
+  background: #29374e;
+  text-decoration: none;
+}
+
+.popup_btn_wrap {
+  position: absolute;
+  top: 3.5rem;
+  right: 2rem;
+  display: flex;
+}
+.popup_btn_wrap a {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.table_type1 table {
+  border-top: 0.2rem solid #222;
+  width: 100%;
+  text-align: left;
+}
+.table_type1 table th {
+  background: #f8f8f8;
+  padding: 1.2rem 4rem;
+}
+.table_type1 table td {
+  border-bottom: 0.1rem solid #ddd;
+  padding: 1.2rem 4rem;
+  color: #666;
+}
+
+.btn_close {
+  display: inline-block;
+  background: url("../images/common/icon_btn_close.svg") no-repeat;
+  width: 1.8rem;
+  height: 1.8rem;
+  background-size: 1.8rem;
+  opacity: 0.7;
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+}
+.btn_close:hover {
+  opacity: 1;
 }/*# sourceMappingURL=main.css.map */
