@@ -4391,9 +4391,9 @@ button {
 
 .drought_popup2 {
   width: 80rem;
-  max-width: 100rem;
+  max-width: 120rem;
   border: 1px solid #ddd;
-  padding: 5rem 3rem 7rem 3rem;
+  padding: 5rem 3rem;
   box-shadow: 1rem 0rem 2rem #777777;
   background: #fff;
   position: absolute;
@@ -4406,14 +4406,14 @@ button {
   display: flex;
 }
 .drought_popup2 .define_wrap .img {
-  width: 40%;
+  width: 45%;
   padding-right: 4rem;
 }
 .drought_popup2 .define_wrap .img img {
   width: 100%;
 }
 .drought_popup2 .define_wrap .txt {
-  width: 60%;
+  width: 55%;
 }
 .drought_popup2 .define_wrap .txt h3 {
   font-size: 2.5rem;
@@ -4429,12 +4429,12 @@ button {
 .info_icon {
   display: inline-block;
   cursor: pointer;
-  border: 0.3rem solid #616c74;
+  border: 0.3rem solid #7d8ba8;
   border-radius: 50%;
   width: 2rem;
   height: 2rem;
   font-size: 1.2rem;
-  color: #616c74;
+  color: #7d8ba8;
   margin-left: 0.5rem;
 }
 .info_icon:before {
