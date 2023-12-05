@@ -4313,6 +4313,16 @@ button {
   transform: translate(-50%, -50%);
   z-index: 99;
 }
+@media (min-width: 320px) and (max-width: 690px) {
+  .drought_popup {
+    width: 100%;
+  }
+}
+@media (min-width: 691px) and (max-width: 1539px) {
+  .drought_popup {
+    width: 100%;
+  }
+}
 .drought_popup .title {
   height: 4.5rem;
 }
@@ -4402,18 +4412,46 @@ button {
   transform: translate(-50%, -50%);
   z-index: 99;
 }
+@media (min-width: 320px) and (max-width: 690px) {
+  .drought_popup2 {
+    width: 100%;
+  }
+}
+@media (min-width: 691px) and (max-width: 1539px) {
+  .drought_popup2 {
+    width: 100%;
+  }
+}
 .drought_popup2 .define_wrap {
   display: flex;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  .drought_popup2 .define_wrap {
+    flex-wrap: wrap;
+    text-align: center;
+  }
 }
 .drought_popup2 .define_wrap .img {
   width: 45%;
   padding-right: 4rem;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  .drought_popup2 .define_wrap .img {
+    width: 100%;
+    padding: 0;
+  }
 }
 .drought_popup2 .define_wrap .img img {
   width: 100%;
 }
 .drought_popup2 .define_wrap .txt {
   width: 55%;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  .drought_popup2 .define_wrap .txt {
+    width: 100%;
+    padding-top: 2rem;
+  }
 }
 .drought_popup2 .define_wrap .txt h3 {
   font-size: 2.5rem;

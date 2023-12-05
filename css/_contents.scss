@@ -641,6 +641,8 @@ a{display:block;padding:0rem 0.75rem;font-size:1.3rem;text-align:center;line-hei
 //popup
 .drought_popup{width:80rem;max-width:100rem;min-height:60rem;border:1px solid #ddd;padding:5rem 3rem;box-shadow:1rem 0rem 2rem #777777;
     background:#fff;@include position($t:50%,$l:50%);transform: translate(-50%, -50%);z-index:99;
+    @include mobile{width:100%}
+    @include tablet{width:100%}
     .title{height:4.5rem}
     .title h2{font-size:2rem;color:#555}
     .btn_view{
@@ -655,7 +657,7 @@ a{display:block;padding:0rem 0.75rem;font-size:1.3rem;text-align:center;line-hei
     }
 }
 
-.popup_btn_wrap{@include position($t:3.5rem,$r:2rem);display:flex;
+.popup_btn_wrap{@include position($t:3.5rem,$r:2rem);display:flex;   
     a{display:inline-block;margin-right:.5rem}
 }
 
@@ -674,11 +676,16 @@ a{display:block;padding:0rem 0.75rem;font-size:1.3rem;text-align:center;line-hei
 
 .drought_popup2{width:80rem;max-width:120rem;border:1px solid #ddd;padding:5rem 3rem;box-shadow:1rem 0rem 2rem #777777;
     background:#fff;@include position($t:50%,$l:50%);transform: translate(-50%, -50%);z-index:99;
+    @include mobile{width:100%}
+    @include tablet{width:100%}
     .define_wrap{display:flex;
+        @include mobile{flex-wrap:wrap;text-align:center;}
         .img{width:45%;padding-right:4rem;
+            @include mobile{width:100%;padding:0;}
             img{width:100%}
         }
         .txt{width:55%;
+            @include mobile{width:100%;padding-top:2rem}
             h3{font-size:2.5rem;line-height:3.5rem;padding-bottom:1.2rem}
             p{font-size:1.7rem;line-height:2.7rem;color:#666}
         }
