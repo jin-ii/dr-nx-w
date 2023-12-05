@@ -4527,6 +4527,11 @@ button {
   padding: 1rem 2rem;
   background: rgba(0, 0, 0, 0.3);
 }
+@media (min-width: 320px) and (max-width: 690px) {
+  .day_counter {
+    position: static;
+  }
+}
 .day_counter dl {
   display: flex;
   padding-right: 1.2rem;
