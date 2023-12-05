@@ -1180,6 +1180,7 @@ button {
   width: 100%;
   background: #212428;
   padding: 3rem 8rem;
+  position: relative;
 }
 @media (min-width: 320px) and (max-width: 690px) {
   #footer {
@@ -4514,4 +4515,26 @@ button {
   background: #8796bb;
   text-align: center;
   color: #fff;
+}
+
+.day_counter {
+  position: absolute;
+  top: 0.3rem;
+  right: 1rem;
+  display: flex;
+  color: #686868;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  background: rgba(0, 0, 0, 0.3);
+}
+.day_counter dl {
+  display: flex;
+  padding-right: 1.2rem;
+}
+.day_counter dt {
+  padding-right: 0.5rem;
+}
+.day_counter dd {
+  font-weight: 900;
+  color: #808080;
 }/*# sourceMappingURL=main.css.map */
