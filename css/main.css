@@ -34,6 +34,8 @@
 /* #Basic Styles
 ================================================== */
 * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -169,8 +171,7 @@ iframe, object, embed {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
   border: 0;
 }
 
@@ -211,10 +212,6 @@ input[type=text], input[type=password] {
   border: 1px solid #ddd;
   padding: 0 1.2rem;
   line-height: 4.5rem;
-}
-
-input::-moz-placeholder {
-  color: #999 !important;
 }
 
 input::placeholder {
@@ -328,6 +325,8 @@ select::-ms-expand {
   height: 7px;
   border: solid white;
   border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
@@ -340,6 +339,7 @@ select::-ms-expand {
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 .check_radio input {
@@ -358,6 +358,8 @@ select::-ms-expand {
   height: 12px;
   border: solid white;
   border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
@@ -1103,10 +1105,8 @@ button {
   left: 0;
   top: 0;
   z-index: -1;
-  -o-object-position: center;
-     object-position: center;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-position: center;
+  object-fit: cover;
   animation: visual-zoom 3s ease 1 both;
   -webkit-animation: visual-zoom 3s ease 1 both;
   animation-delay: 0.4s;
@@ -1140,6 +1140,14 @@ button {
 }
 
 @keyframes visual-zoom {
+  0% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes visual-zoom {
   0% {
     transform: scale(1.2);
   }
@@ -1658,10 +1666,8 @@ button {
   left: 0;
   top: 0;
   z-index: -1;
-  -o-object-position: center;
-     object-position: center;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-position: center;
+  object-fit: cover;
   animation: visual-zoom 3s ease 1 both;
   -webkit-animation: visual-zoom 3s ease 1 both;
   animation-delay: 0.4s;
@@ -1700,6 +1706,7 @@ button {
   height: 100%;
   position: fixed;
   top: 0;
+  -webkit-transform: translateZ(0);
   transform: translateZ(0);
   z-index: -1;
 }
@@ -1915,6 +1922,10 @@ button {
   -moz-transition: transform 0.3s ease, top 0.3s ease, left 0.3s ease;
 }
 #sec_business .banner_box .photo_box:hover img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
   transform: scale(1.1);
 }
 #sec_business .banner_box .photo_box:hover .title {
@@ -3056,10 +3067,6 @@ button {
   height: 6rem;
   line-height: 5.8rem;
   margin-bottom: 1rem;
-}
-.login_wrap .input_type_c::-moz-placeholder {
-  color: #9BB3E2;
-  font-weight: 500;
 }
 .login_wrap .input_type_c::placeholder {
   color: #9BB3E2;
@@ -4542,4 +4549,34 @@ button {
 .day_counter dd {
   font-weight: 900;
   color: #808080;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.radio_wrap {
+  margin-top: 1rem;
+  padding: 1rem 0.8rem;
+  background: #f8f8f8;
+}
+.radio_wrap label {
+  display: inline-block;
+  color: #666;
+  line-height: 3rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.btn_confirm2 {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  height: 4.5rem;
+  line-height: 4.5rem;
+  background: #a2a4ad;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+.btn_confirm2:hover {
+  background: #6c728b;
+  text-decoration: none;
+}
