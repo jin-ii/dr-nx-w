@@ -4572,4 +4572,32 @@ button {
 .btn_confirm2:hover {
   background: #6c728b;
   text-decoration: none;
+}
+
+.arrow_up {
+  position: relative;
+}
+.arrow_up:before {
+  display: block;
+  content: "";
+  position: absolute;
+  border-left: 0.6rem solid transparent;
+  border-right: 0.6rem solid transparent;
+  border-bottom: 0.8rem solid rgb(245, 83, 83);
+  left: -2rem;
+  top: 0.8rem;
+}
+
+.arrow_down {
+  position: relative;
+}
+.arrow_down:before {
+  display: block;
+  content: "";
+  position: absolute;
+  border-left: 0.6rem solid transparent;
+  border-right: 0.6rem solid transparent;
+  border-top: 0.8rem solid rgb(71, 135, 209);
+  left: -2rem;
+  top: 0.8rem;
 }/*# sourceMappingURL=main.css.map */

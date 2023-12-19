@@ -724,3 +724,26 @@ a{display:block;padding:0rem 0.75rem;font-size:1.3rem;text-align:center;line-hei
     text-align:center;font-weight:700;margin-top:1rem;
     &:hover{background:#6c728b;text-decoration:none}
     }
+
+// <>
+.arrow_up{position:relative;    
+    &:before{display:block;content:'';position:absolute;           
+        border-left: .6rem solid transparent;
+        border-right: .6rem solid transparent;
+        border-bottom: .8rem solid rgb(245, 83, 83);
+        left:-2rem;                
+        top:.8rem;        
+    }
+}
+ 
+.arrow_down{position:relative;    
+    &:before{display:block;content:'';position:absolute;           
+        border-left: .6rem solid transparent;
+        border-right: .6rem solid transparent;
+        border-top: .8rem solid rgb(71, 135, 209);
+        left:-2rem; 
+        top:.8rem;      
+       
+    }
+}
+ 
