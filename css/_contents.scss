@@ -548,6 +548,7 @@ a{display:block;padding:0rem 0.75rem;font-size:1.3rem;text-align:center;line-hei
         .water_icons{display:inline-block;width:4rem;height:4rem;background-size:4rem;
             &.off{background:url($imgurl3 + 'icon_water_off.png') no-repeat}
             &.on{background:url($imgurl3 + 'icon_water_on.png') no-repeat}
+            &.half{background:url($imgurl3 + 'icon_water_half.png') no-repeat}
         }   
     }
 
@@ -556,6 +557,7 @@ a{display:block;padding:0rem 0.75rem;font-size:1.3rem;text-align:center;line-hei
         .grow_icons{display:inline-block;width:4rem;height:4rem;background-size:4rem;
             &.off{background:url($imgurl3 + 'icon_grow_off.png') no-repeat}
             &.on{background:url($imgurl3 + 'icon_grow_on.png') no-repeat}
+            &.half{background:url($imgurl3 + 'icon_grow_half.png') no-repeat}
         }   
     }
 
@@ -564,6 +566,7 @@ a{display:block;padding:0rem 0.75rem;font-size:1.3rem;text-align:center;line-hei
         .energy_icons{display:inline-block;width:4rem;height:4rem;background-size:4rem;
             &.off{background:url($imgurl3 + 'icon_energy_off.png') no-repeat}
             &.on{background:url($imgurl3 + 'icon_energy_on.png') no-repeat}
+            &.half{background:url($imgurl3 + 'icon_energy_half.png') no-repeat}
         }   
     }
 
@@ -572,6 +575,7 @@ a{display:block;padding:0rem 0.75rem;font-size:1.3rem;text-align:center;line-hei
         .gas_icons{display:inline-block;width:4rem;height:4rem;background-size:4rem;
             &.off{background:url($imgurl3 + 'icon_gas_off.png') no-repeat}
             &.on{background:url($imgurl3 + 'icon_gas_on.png') no-repeat}
+            &.half{background:url($imgurl3 + 'icon_gas_half.png') no-repeat}
         }   
     }
 
@@ -580,6 +584,7 @@ a{display:block;padding:0rem 0.75rem;font-size:1.3rem;text-align:center;line-hei
         .cost_icons{display:inline-block;width:4rem;height:4rem;background-size:4rem;
             &.off{background:url($imgurl3 + 'icon_cost_off.png') no-repeat}
             &.on{background:url($imgurl3 + 'icon_cost_on.png') no-repeat}
+            &.half{background:url($imgurl3 + 'icon_cost_half.png') no-repeat}
         }   
     }
 
