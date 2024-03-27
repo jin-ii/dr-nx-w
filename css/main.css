@@ -2342,6 +2342,38 @@ button {
 }
 
  */
+/* 방문자 상단 추가 */
+.day_counter2 {
+  position: absolute;
+  top: 7rem;
+  right: 4rem;
+  display: flex;
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+@media (min-width: 320px) and (max-width: 690px) {
+  .day_counter2 {
+    display: inline-block;
+    line-height: 24px;
+    position: absolute;
+    right: 1rem;
+  }
+}
+.day_counter2 dl {
+  display: flex;
+  padding-right: 1.2rem;
+}
+.day_counter2 dt {
+  padding-right: 0.5rem;
+}
+.day_counter2 dd {
+  font-weight: 900;
+  color: #fff;
+}
+
 /* 타이틀 */
 .title_type1 {
   text-align: center;
@@ -2908,6 +2940,22 @@ button {
 .map_box_wrap .map_box {
   position: relative;
   padding: 10px;
+}
+.map_box_wrap .map_box .map_btn {
+  display: flex;
+  align-items: center;
+}
+.map_box_wrap .map_box .logo_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  border: 0.1rem solid #ddd;
+  min-width: 140px;
+  min-height: 40px;
+}
+.map_box_wrap .map_box .logo_link:hover {
+  border: 0.1rem solid #9b9b9b;
 }
 .map_box_wrap .map_box .legend {
   position: absolute;

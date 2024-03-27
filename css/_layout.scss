@@ -534,3 +534,11 @@
 }
 
  */
+
+/* 방문자 상단 추가 */
+.day_counter2{@include position($r:4rem,$t:7rem);display:flex;color:rgba(255,255,255,0.6);border-radius:2rem;padding:1rem 2rem;background:rgba(0,0,0,0.3);z-index:1;
+  @include mobile{display:inline-block;line-height:24px;@include position($r:1rem);}
+  dl{display:flex;padding-right:1.2rem;}
+  dt{padding-right:.5rem}
+  dd{font-weight:900;color:#fff}
+}
